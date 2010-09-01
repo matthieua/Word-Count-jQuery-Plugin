@@ -1,0 +1,6 @@
+#container {width: 600px; margin: 0 auto;}
+
+textarea {color:  gray;margin: 50px 0 0 100px; width: 400px; height: 200px; background-image: -moz-linear-gradient(-90deg, #f1f1f1, white, white); border: 1px solid #dcdcdc; font-size: 18px; padding: 10px;}
+textarea:focus { border: 1px solid #5F5F5F;}
+#wordcount {margin: 5px 0 0 100px; color: #4F4F4F;}
+#wordcount.error{color: red;}

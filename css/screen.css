@@ -1,6 +1,16 @@
-#container {width: 600px; margin: 0 auto;}
+/* screen.css */
+/* author: matthieu aussaguel */
 
-textarea {color:  gray;margin: 50px 0 0 100px; width: 400px; height: 200px; background-image: -moz-linear-gradient(-90deg, #f1f1f1, white, white); border: 1px solid #dcdcdc; font-size: 18px; padding: 10px;}
+#container {width: 600px; margin: 20px auto;}
+
+header {padding: 10px 0;}
+header h1{font-size: 2em;}
+
+textarea {color:  #6F6F6F; width: 400px; height: 200px; background-color: #ffffee;; border: 1px solid #dcdcdc; font-size: 1.2em; padding: 10px;}
 textarea:focus { border: 1px solid #5F5F5F;}
-#wordcount {margin: 5px 0 0 100px; color: #4F4F4F;}
+
+#wordcount {margin: 5px 0 0; color: #4F4F4F; font-size: 1.4em;}
 #wordcount.error{color: red;}
+
+
+footer {margin: 30px 0 0; font-style: italic;}

@@ -48,4 +48,8 @@ options:
   erCl: class name
 		class name added to the counter element is the word limit is reached
 		default: 'error'
+
 }
+**************************
+	MORE TO COME
+**************************

@@ -15,10 +15,7 @@
 	}
 	
 	// check if a wordcount for this input was already created
-	if ( $.data(this[0], 'wordcount') ) {
-		alert('already');
-		return;
-	}
+	if ( $.data(this[0], 'wordcount') ) return;
 	
 	$.data(this[0], 'wordcount', true);
 	// set varables
@@ -26,8 +23,8 @@
 	    maxWords: 30,  
 	    msg: "words",  
 	    erMsg: "words",
-		erCl: "error",
-		counter: "counter"		
+			erCl: "error",
+			counter: "counter"		
 	   };
  	
 	options = $.extend(defaults, options);
@@ -38,7 +35,7 @@
 
 	//display counter
 	$wordcount.text(cMsg());
-	$this.bind('click focus keyup blur change pase', function () {
+	$this.bind('click focus keyup blur change paste', function () {
 			$wordcount.text(cMsg());
 	})
  

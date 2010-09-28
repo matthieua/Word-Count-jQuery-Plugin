@@ -1,0 +1,51 @@
+******************************************
+ jQuery Word Count plug-in 0.1
+
+ Copyright (c) 2010 - Matthieu Aussaguel
+
+******************************************
+$(document).ready(function() {	
+	$('#textarea-main').wordcount({counter: 'wordcount'});
+});
+
+$( textarea-selector ).wordcount( options ); 
+
+selector:
+  The jQuery selector that targets a template in the html document
+
+values:
+  A {key:value} set of tokens and replacements,
+  or an array of {key:value} replacements to be rendered onto
+  multiple templates
+	var defaults = {  
+	    maxWords: 30,  
+	    msg: "words",  
+	    erMsg: "words",
+			erCl: "error",
+			counter: "counter"		
+	   };
+
+
+
+options:
+{
+  counter: element ID
+	element ID where the counter will be displayed
+	default: 'counter'
+
+  maxWords: number
+     word count limit
+	 default: 30
+	
+  msg: message
+       message to be displayed after the counter
+	   default: 'words'
+	
+  erMsg: message
+         message to be displayed if the word limit is reached
+		 default: 'words'
+		
+  erCl: class name
+		class name added to the counter element is the word limit is reached
+		default: 'error'
+}

@@ -5,8 +5,7 @@
  *
  */
 
-$(document).ready(function() {
-	$('#textarea-main').focus();	
+$(document).ready(function() {	
 	$('#textarea-main').wordcount({counter: 'wordcount'});
 });
 
